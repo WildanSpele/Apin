@@ -1,0 +1,24 @@
+/* ./css/styles.css */
+:root{
+  --primary:#0d6efd;      /* Bootstrap primary */
+  --dark:#0f172a;         /* Slate-900 */
+  --muted:#64748b;        /* Slate-500 */
+  --bg:#f8fafc;           /* Slate-50 */
+}
+
+html,body{scroll-behavior:smooth;}
+body{background:var(--bg); color:#0b1220;}
+
+.navbar-brand img{height:36px; width:auto; margin-right:.5rem;}
+.hero{
+  background: linear-gradient(180deg, rgba(13,110,253,.06), transparent 60%), url('../assets/hero-net.jpg') center/cover no-repeat;
+  padding: 6rem 0; color:#0b1220;
+}
+.hero h1{font-weight:700;}
+.section-title{font-weight:700; letter-spacing:.2px;}
+.card{border:1px solid #e2e8f0; border-radius:1rem;}
+.card img{object-fit:cover;}
+.footer{background:#0b1220; color:#e2e8f0;}
+.footer a{color:#e2e8f0; text-decoration:none;}
+.badge-rounded{border-radius:999px; padding:.5rem .75rem;}
+  
